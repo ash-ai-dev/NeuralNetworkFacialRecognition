@@ -1,2 +1,2 @@
-Triplet final loss: 0.0746
+Triplet final loss: 0.0191
 Checkpoint saved to: checkpoints/model_triplet.pth

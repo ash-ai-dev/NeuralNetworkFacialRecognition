@@ -2,13 +2,6 @@ import numpy as np
 import random
 
 def create_pairs(images, labels):
-    """
-    Generate positive and negative pairs for contrastive loss training.
-
-    Returns:
-        pair_images: list of image pairs [img1, img2]
-        pair_labels: 1 if same class, 0 if different class
-    """
     pair_images = []
     pair_labels = []
     label_to_indices = {}
@@ -42,12 +35,6 @@ def create_pairs(images, labels):
 
 
 def create_triplets(images, labels):
-    """
-    Generate triplets (anchor, positive, negative) for triplet loss training.
-
-    Returns:
-        triplets: list of (anchor, positive, negative)
-    """
     triplets = []
     label_to_indices = {}
 

@@ -186,7 +186,7 @@ if __name__ == "__main__":
     os.makedirs("checkpoints", exist_ok=True)
     os.makedirs("logs", exist_ok=True)
 
-    for loss_type in ["contrastive", "triplet"]:
+    for loss_type in ["triplet"]:
         print(f"\n--- Running training for {loss_type} loss ---")
 
         model = FaceEmbeddingCNN(embedding_dim=128)

@@ -1,2 +1,2 @@
-Contrastive final loss: 0.0532
+Contrastive final loss: 0.1471
 Checkpoint saved to: checkpoints/model_contrastive.pth
